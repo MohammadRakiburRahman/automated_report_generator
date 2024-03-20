@@ -1,0 +1,25 @@
+To check for python
+
+#### Open a command line tool such as Windows Terminal or Command Prompt In the command line, type `python`. If Python is installed, you should see a message like “Python 3. x.x” followed by the Python prompt, which looks like this “>>>”.
+
+If not installed follow the steps:
+Step 1: Update Local Repositories. ...
+Step 2: Install Supporting Software. ...
+Step 3: Download the Latest Version of the Python Source Code. ...
+Step 4: Extract Compressed Files. ...
+Step 5: Test the System and Optimize Python. ...
+Step 6: Install Python. ...
+Step 7: Verify Python Version.
+
+#### For video references follow the link: https://www.youtube.com/watch?v=9QftEX6yZP4
+
+
+#### After installing Python install the libraries on the command line on the folder directory 
+
+1) pip install flask
+2) pip install pymysql
+3) pip install email.mime.multipart
+
+#### To run the system in the command line in the folder directory :
+
+type  'python app.py '
