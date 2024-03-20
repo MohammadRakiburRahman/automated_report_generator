@@ -64,7 +64,6 @@ def get_store_name(store_id):
     conn.close()
     return store_name
 
-
 # Function to send email
 def send_email(data, email_address, date, store_name, store_code):
     smtp_server = 'smtp.gmail.com'
@@ -146,7 +145,7 @@ def send_email(data, email_address, date, store_name, store_code):
             </tr>
     """
 
-    # Adding transaction details
+    # Adding transaction details#####
     for row in data:
         body += "<tr>"
         for item in row:
